@@ -6,6 +6,15 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <SearchView
+        android:id="@+id/search_viewr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:iconifiedByDefault="false" />
+<!--
+android:queryHint="@string/search_photos"
+-->
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
