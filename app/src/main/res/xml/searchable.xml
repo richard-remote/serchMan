@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+7/12
+Added a searchable element (required)
+**
+-->
+<searchable xmlns:android="http://schemas.android.com/apk/res/android"
+    android:label="LABEL"
+    android:hint="HINT" >
+</searchable>
