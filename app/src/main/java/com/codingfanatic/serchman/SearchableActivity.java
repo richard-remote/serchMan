@@ -1,12 +1,13 @@
 package com.codingfanatic.serchman;
 
+import android.app.ListActivity;
 import android.app.SearchManager; //QUERY constant string
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-public class SearchableActivity extends AppCompatActivity{
+public class SearchableActivity extends ListActivity {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -22,7 +23,7 @@ public class SearchableActivity extends AppCompatActivity{
     }
 
     public void doMySearch(String query) {
-        System.out.print(query);
+
     }
 
 }
